@@ -4,6 +4,7 @@ const company = {
   displayPhone: "+998 90 631 55 53",
   address: "Фергана, Узбекистан",
   map: "https://maps.app.goo.gl/tJ2QovGrQXCd3f8q8",
+  map: "https://yandex.ru/maps/-/CTSwMU4t",
   instagram: "https://www.instagram.com/mirko_izobazalt?igsi=cDh4Nno0MHd2M294",
   telegram: "https://t.me/mirko_izobazalt",
   whatsapp: "https://wa.me/998901234567"
