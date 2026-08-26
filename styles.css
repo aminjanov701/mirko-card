@@ -477,11 +477,9 @@
   }
 
   #ownerCallBtn {
-    min-width: 0;
-    width: 110px;
-    padding: 14px 8px;
-    font-size: 13px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
+  width: 95px;
+  padding: 12px 6px;
+  font-size: 12px;
+  white-space: nowrap;
+}
 }
