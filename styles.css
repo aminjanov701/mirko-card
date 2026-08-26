@@ -458,3 +458,30 @@
     font-size: 14px;
   }
 }
+/* 📱 Адаптация контактов для мобильных устройств */
+@media (max-width: 480px) {
+
+  .contact-row {
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 10px;
+  }
+
+  .contact-info {
+    min-width: 0;
+  }
+
+  #ownerPhoneText {
+    font-size: 18px;
+    white-space: nowrap;
+    letter-spacing: 0;
+  }
+
+  #ownerCallBtn {
+    min-width: 0;
+    width: 110px;
+    padding: 14px 8px;
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
