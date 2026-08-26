@@ -1,7 +1,9 @@
 const company = {
   name: "MIRKO IZOBAZALT",
-  phone: "+998906315553",
-  displayPhone: "+998 90 631 55 53",
+  phone: "+998905315553",
+  displayPhone: "+998 90 531 55 53",
+  ownerTelegram: "uygun0", // <-- ЗАМЕНИТЕ на username владельца без @
+  website: "https://mirko.uz",
   address: "Фергана, Узбекистан",
   map: "https://maps.app.goo.gl/tJ2QovGrQXCd3f8q8",
   map: "https://yandex.ru/maps/-/CTSwMU4t",
@@ -10,8 +12,11 @@ const company = {
   whatsapp: "https://wa.me/998901234567"
 };
 
-document.getElementById("callBtn").href = `tel:${company.phone}`;
-document.getElementById("phoneText").textContent = company.displayPhone;
+document.getElementById("ownerCallBtn").href = `tel:${company.phone}`;
+document.getElementById("ownerPhoneText").textContent = company.displayPhone;
+document.getElementById("ownerTelegramText").textContent = `@${company.ownerTelegram}`;
+document.getElementById("ownerTelegramBtn").href = `https://t.me/${company.ownerTelegram}`;
+document.getElementById("websiteBtn").href = company.website;
 
 function showToast(message) {
   const toast = document.getElementById("toast");
