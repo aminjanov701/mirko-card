@@ -447,3 +447,14 @@
 #ownerPhoneText {
   white-space: nowrap;
 }
+@media (max-width: 480px) {
+  #ownerPhoneText {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  #ownerCallBtn {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+}
