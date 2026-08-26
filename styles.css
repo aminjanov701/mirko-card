@@ -443,3 +443,7 @@
   background: #D49A2F;
   border-radius: 10px;
 }
+/* Чтобы номер телефона не переносился на новую строку */
+#ownerPhoneText {
+  white-space: nowrap;
+}
